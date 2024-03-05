@@ -122,7 +122,7 @@
   //       "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u"
   //     }
   //   ],
-  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  //   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     // {
     //   "key": "csp_XYQBiu_大师兄影视",
@@ -134,14 +134,23 @@
     //   "filterable": 1,
     //   "ext": "https://gist.gitmirror.com/gh1198843222/tvbox/master/XYQBiu/大师兄影视.json"
     // },
+    // {
+    //   "key": "豆豆",
+    //   "name": "豆瓣┃搜索",
+    //   "type": 3,
+    //   "api": "csp_DouDou",
+    //   "searchable": 0,
+    //   "quickSearch": 0,
+    //   "filterable": 0
+    // },
     {
-      "key": "豆豆",
-      "name": "豆瓣┃搜索",
+      "key": "2",
+      "name": "🤖以下为推荐资源🤖",
       "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
+      "api": "360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "drpy_js_磁力熊搜索",
@@ -323,17 +332,17 @@
       "changeable": 0,
       "ext": "FbjDcUxPqpfNr0QF4QvEpcoxMMdAA5wQTClJt+Hxgw4VXJLfrTSRjQjA6r70U2ONX3iG4lQWk1cgXQMSUZpbUzIYJ6iQs3+gcUVDp1lz6rcrGqDtCW4hfAf9JSR025m0+TGWMsZkVg=="
     },
-    {
-      "key": "Czsapp",
-      "name": "厂长┃无广",
-      "type": 3,
-      "api": "csp_Czsapp",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.czzy55.com/"
-    },
+    // {
+    //   "key": "Czsapp",
+    //   "name": "厂长┃无广",
+    //   "type": 3,
+    //   "api": "csp_Czsapp",
+    //   "playerType": 2,
+    //   "searchable": 1,
+    //   "quickSearch": 1,
+    //   "changeable": 1,
+    //   "ext": "https://www.czzy55.com/"
+    // },
     {
       "key": "毛驴",
       "name": "毛驴┃直连",
@@ -1219,98 +1228,98 @@
   ],
   "parses": [
     { "name": "Json聚合", "type": 3, "url": "Demo" },
-    {
-      "name": "飞云",
-      "type": 1,
-      "url": "https://daina.hk/api/?key=e1e84ecae847b6e4a1a27fd4611f45f5&url=",
-      "ext": {
-        "flag": [
-          "FYNB",
-          "mgtv",
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩",
-          "mgtv",
-          "芒果"
-        ],
-        "header": { "User-Agent": "okhttp/4.1.0" }
-      }
-    },
-    {
-      "name": "米饭",
-      "type": 1,
-      "url": "https://api.json.icu/api/?key=b1f3b1a9e1c0a42ae969db10bd315a95&url=",
-      "ext": {
-        "flag": [
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩",
-          "mgtv",
-          "芒果",
-          "芒果"
-        ],
-        "header": { "User-Agent": "okhttp/4.1.0" }
-      }
-    },
-    {
-      "name": "饭饭",
-      "type": 1,
-      "url": "http://api.888484.xyz/神秘哥哥/super.php?v=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "tucheng",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "yzm",
-          "aliyun",
-          "RJuMao",
-          "bilibili",
-          "1905",
-          "xinvip",
-          "XAL",
-          "qiqi",
-          "XALS",
-          "YuMi-vip"
-        ]
-      }
-    },
+    // {
+    //   "name": "飞云",
+    //   "type": 1,
+    //   "url": "https://daina.hk/api/?key=e1e84ecae847b6e4a1a27fd4611f45f5&url=",
+    //   "ext": {
+    //     "flag": [
+    //       "FYNB",
+    //       "mgtv",
+    //       "qiyi",
+    //       "imgo",
+    //       "爱奇艺",
+    //       "奇艺",
+    //       "qq",
+    //       "腾讯",
+    //       "youku",
+    //       "优酷",
+    //       "pptv",
+    //       "PPTV",
+    //       "letv",
+    //       "乐视",
+    //       "leshi",
+    //       "bilibili",
+    //       "哔哩哔哩",
+    //       "哔哩",
+    //       "mgtv",
+    //       "芒果"
+    //     ],
+    //     "header": { "User-Agent": "okhttp/4.1.0" }
+    //   }
+    // },
+    // {
+    //   "name": "米饭",
+    //   "type": 1,
+    //   "url": "https://api.json.icu/api/?key=b1f3b1a9e1c0a42ae969db10bd315a95&url=",
+    //   "ext": {
+    //     "flag": [
+    //       "爱奇艺",
+    //       "奇艺",
+    //       "qq",
+    //       "腾讯",
+    //       "youku",
+    //       "优酷",
+    //       "pptv",
+    //       "PPTV",
+    //       "letv",
+    //       "乐视",
+    //       "leshi",
+    //       "bilibili",
+    //       "哔哩哔哩",
+    //       "哔哩",
+    //       "mgtv",
+    //       "芒果",
+    //       "芒果"
+    //     ],
+    //     "header": { "User-Agent": "okhttp/4.1.0" }
+    //   }
+    // },
+    // {
+    //   "name": "饭饭",
+    //   "type": 1,
+    //   "url": "http://api.888484.xyz/神秘哥哥/super.php?v=",
+    //   "ext": {
+    //     "flag": [
+    //       "qq",
+    //       "腾讯",
+    //       "qiyi",
+    //       "爱奇艺",
+    //       "奇艺",
+    //       "youku",
+    //       "优酷",
+    //       "tucheng",
+    //       "sohu",
+    //       "搜狐",
+    //       "letv",
+    //       "乐视",
+    //       "mgtv",
+    //       "芒果",
+    //       "tnmb",
+    //       "seven",
+    //       "yzm",
+    //       "aliyun",
+    //       "RJuMao",
+    //       "bilibili",
+    //       "1905",
+    //       "xinvip",
+    //       "XAL",
+    //       "qiqi",
+    //       "XALS",
+    //       "YuMi-vip"
+    //     ]
+    //   }
+    // },
     {
       "name": "虾米",
       "type": 0,
@@ -1596,38 +1605,38 @@
     "ruyi1080",
     "ruyib1080"
   ],
-  "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": ["8.8.4.4", "8.8.8.8"]
-    },
-    {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ]
-    },
-    {
-      "name": "AdGuard",
-      "url": "https://dns.adguard.com/dns-query",
-      "ips": ["94.140.14.140", "94.140.14.141"]
-    },
-    {
-      "name": "DNSWatch",
-      "url": "https://resolver2.dns.watch/dns-query",
-      "ips": ["84.200.69.80", "84.200.70.40"]
-    },
-    {
-      "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-quer",
-      "ips": ["9.9.9.9", "149.112.112.112"]
-    }
-  ],
+  //   "doh": [
+  //     {
+  //       "name": "Google",
+  //       "url": "https://dns.google/dns-query",
+  //       "ips": ["8.8.4.4", "8.8.8.8"]
+  //     },
+  //     {
+  //       "name": "Cloudflare",
+  //       "url": "https://cloudflare-dns.com/dns-query",
+  //       "ips": [
+  //         "1.1.1.1",
+  //         "1.0.0.1",
+  //         "2606:4700:4700::1111",
+  //         "2606:4700:4700::1001"
+  //       ]
+  //     },
+  //     {
+  //       "name": "AdGuard",
+  //       "url": "https://dns.adguard.com/dns-query",
+  //       "ips": ["94.140.14.140", "94.140.14.141"]
+  //     },
+  //     {
+  //       "name": "DNSWatch",
+  //       "url": "https://resolver2.dns.watch/dns-query",
+  //       "ips": ["84.200.69.80", "84.200.70.40"]
+  //     },
+  //     {
+  //       "name": "Quad9",
+  //       "url": "https://dns.quad9.net/dns-quer",
+  //       "ips": ["9.9.9.9", "149.112.112.112"]
+  //     }
+  //   ],
   "rules": [
     {
       "name": "hwk",
